@@ -64,7 +64,7 @@ const setPrimaryAppearance = (elementList) => { // for ALL buttons
   })
 }
 
-const setSecondaryAppearance = (element) => { // for a specific player option button
+const setSecondaryAppearance = (element) => { // for a specific option button
   element.style.backgroundColor = `var(--${element.textContent.toLowerCase()}-secondary)`;
   element.style.width = "170px";
   element.style.height = "37px";
