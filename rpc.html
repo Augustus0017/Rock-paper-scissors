@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, paper, scissors</title>
+  <link rel="stylesheet" href="rpc.css">
+</head>
+<body>
+  
+  <header>
+
+    <h1>Rock, paper, scissors</h1>
+
+    <details>
+      <summary>Play rock, paper, scissors with Peng</summary>
+      <p>Rock breaks scissors, scissors cuts paper and paper covers rock. So if you choose paper and Peng chose scissors, you lose the round because Peng's scissors cuts your paper. But if Peng chose rock while you chose paper then you won the round because your paper covers Peng's rock</p>
+    </details>
+
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="choices">
+
+        <div class="your-choice">
+
+          <h3>Your choice</h3>
+
+          <div class="options">
+            <button>Rock</button>
+            <button>Paper</button>
+            <button>Scissors</button>
+          </div>
+
+        </div>
+
+        <div class="peng-choice">
+
+          <h3>Peng's choice</h3>
+
+          <div class="options">
+            <button>Rock</button>
+            <button>Paper</button>
+            <button>Scissors</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="scores hide">
+        <span class="your-score">0</span>
+        <span class="colon">:</span>
+        <span class="peng-score">0</span>
+      </div>
+
+      <div class="result hide">
+        <p class="message">You have won. Now reset to restart the game</p>
+      </div>
+
+      <div class="reset">
+        <button>Reset</button>
+      </div>
+      
+    </div>
+  </main>
+
+
+  <script src="rpc.js"></script>
+</body>
+</html>
+
+<!-- &copy; 2025 Augustus Sodiya 😂 All rights reserved, Peng-style -->
